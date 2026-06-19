@@ -36,7 +36,7 @@ Cuneyt Gurses Personal cloud-native lab for Kubernetes, GitOps, Cloud Native Sec
 cloudnative-lab/
 │
 ├── README.md
-│
+|
 ├── bootstrap/
 │   └── kind/
 │       └── kind-cluster.yaml
