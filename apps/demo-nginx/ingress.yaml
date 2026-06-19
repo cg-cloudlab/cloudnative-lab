@@ -5,6 +5,12 @@ metadata:
   namespace: default
 spec:
   ingressClassName: nginx
+
+  tls:
+  - hosts:
+    - demo.local
+    secretName: demo-nginx-tls
+
   rules:
   - host: demo.local
     http:
