@@ -1,15 +1,24 @@
 # Cloud Native Lab
 
-Personal cloud-native lab for Kubernetes, GitOps, Cloud Native Security, Private AI, RAG, and Air-Gapped/Sovereign AI scenarios.
+Cuneyt Gurses Personal cloud-native lab for Kubernetes, GitOps, Cloud Native Security, Private AI, RAG, and Air-Gapped/Sovereign AI scenarios.
 
 ## Current Components
 
-- WSL2
-- Docker
-- kind Kubernetes cluster
+- wsl
+- calude
+- wsc
+- python
+- kubernetes
+- helm
+- kind cluster
 - Ingress NGINX
+    - test nginx app
+    - localhost ingress erişimi
 - Metrics Server
 - ArgoCD
+- GitHub
+- GitOps
+
 
 ## Target Lab Areas
 
