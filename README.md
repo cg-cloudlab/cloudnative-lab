@@ -33,21 +33,46 @@ Cuneyt Gurses Personal cloud-native lab for Kubernetes, GitOps, Cloud Native Sec
 
 ## Repository Structure
 
-```text
 cloudnative-lab/
+│
+├── README.md
+│
 ├── bootstrap/
-│   └── kind-cluster.yaml
+│   └── kind/
+│       └── kind-cluster.yaml
+│
 ├── infrastructure/
+│   │
+│   ├── argocd/
+│   │   ├── root-app.yaml
+│   │   └── apps/
+│   │       ├── demo-nginx-app.yaml
+│   │       ├── cert-manager-app.yaml
+│   │       ├── harbor-app.yaml
+│   │       ├── kyverno-app.yaml
+│   │       ├── trivy-app.yaml
+│   │       └── falco-app.yaml
+│   │
 │   ├── ingress-nginx/
 │   ├── cert-manager/
-│   ├── argocd/
 │   └── harbor/
+│
 ├── security/
 │   ├── kyverno/
 │   ├── trivy/
 │   └── falco/
+│
 ├── ai/
 │   ├── ollama/
 │   ├── open-webui/
 │   └── rag/
+│
 └── apps/
+    │
+    ├── demo-nginx/
+    │   ├── deployment.yaml
+    │   ├── service.yaml
+    │   ├── ingress.yaml
+    │   └── kustomization.yaml
+    │
+    └── future-apps/
