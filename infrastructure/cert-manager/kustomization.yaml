@@ -1,2 +1,3 @@
 resources:
 - selfsigned-clusterissuer.yaml
+- demo-nginx-certificate.yaml
