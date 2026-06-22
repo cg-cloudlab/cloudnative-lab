@@ -1,4 +1,4 @@
-# Cloud Native Platform Lab
+# Cloud Native Platform Lab by Cuneyt Gurses
 
 Personal cloud-native lab focused on:
 
