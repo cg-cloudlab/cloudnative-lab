@@ -14,10 +14,12 @@ spec:
       values: |
         expose:
           type: ingress
+          tls:
+            enabled: false
           ingress:
             hosts:
               core: harbor.local
-        externalURL: https://harbor.local
+        externalURL: http://harbor.local
         harborAdminPassword: Harbor12345
 
   destination:
