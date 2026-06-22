@@ -19,6 +19,9 @@ spec:
           ingress:
             hosts:
               core: harbor.local
+            annotations:
+              nginx.ingress.kubernetes.io/ssl-redirect: "false"
+              ingress.kubernetes.io/ssl-redirect: "false"
         externalURL: http://harbor.local
         harborAdminPassword: Harbor12345
 
