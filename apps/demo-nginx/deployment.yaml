@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.29
+        image: harbor.local/library/nginx:1.29
         ports:
         - containerPort: 80
