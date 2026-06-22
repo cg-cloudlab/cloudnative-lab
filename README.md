@@ -287,6 +287,6 @@ curl -k -H "Host: demo.local" https://localhost
 
 **Cuneyt Gurses**
 
-Cloud Solution Group Director
+Lead Cloud Architect
 
 Cloud Architecture • Kubernetes • GitOps • Cloud Native Security • Sovereign Cloud • Private AI
